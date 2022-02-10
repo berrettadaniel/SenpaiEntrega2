@@ -1,4 +1,4 @@
-export function Header() {
+export function Header(props) {
     return (
         <div className="header">
 
@@ -7,7 +7,7 @@ export function Header() {
                 </a>
             </div>
 
-            <h1 className="titulo">REFORMAS Y REPARACIONES</h1>
+            <h1 className="titulo">{ props.titulo }</h1>
 
             <nav>
                 <div>

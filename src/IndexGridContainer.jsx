@@ -1,4 +1,4 @@
-import { Footer } from './Footer.jsx';
+import { Footer } from './components/common/Footer.jsx';
 
 export function IndexGridContainer() {
     return (

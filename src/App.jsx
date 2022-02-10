@@ -1,10 +1,12 @@
 import { Header } from './Header';
 import { IndexGridContainer } from './IndexGridContainer';
 
+let titulo = "REFORMAS Y REPARACIONES"
+
 export function App() {
     return (
         <>
-            <Header />
+            <Header titulo = "REFORMAS Y REPARACIONES" />
             <IndexGridContainer />
         </>
     );
