@@ -1,3 +1,5 @@
+import { style } from '../../assets/styles/style.css';
+
 export function Footer() {
     return (
         <div class="footerFlex">
