@@ -14,8 +14,6 @@ export function IndexGridContainer() {
         });
     }, []);
 
-
-
     return (
         <div class="gridContainer">
         
@@ -36,7 +34,7 @@ export function IndexGridContainer() {
                                 <img
                                     src={servicio.archivo}
                                     alt={servicio.nombre} />
-                                <h2>Albañilería</h2>
+                                <h2>{servicio.nombre}</h2>
                             </a>
                         </div>
                     )})}

@@ -3,37 +3,37 @@
     {
       "id": 1,
       "nombre": "Albañileria",
-      "archivo": "../../assets/images/Oficio_albanil.jpg"
+      "archivo": "/assets/imagesOficios/Oficio_albanil.jpg"
     },
     {
       "id": 2,
       "nombre": "Carpinteria",
-      "archivo": "../../assets/images/Oficio_carpintero.jpg"
+      "archivo": "/assets/imagesOficios/Oficio_carpintero.jpg"
     },
     {
       "id": 3,
       "nombre": "Electricidad",
-      "archivo": "../../assets/images/Oficio_electricista.jpg"
+      "archivo": "/assets/imagesOficios/Oficio_electricista.jpg"
     },
     {
       "id": 4,
       "nombre": "Fumigacion",
-      "archivo": "../../assets/images/Oficio_fumigador.jpg"
+      "archivo": "/assets/imagesOficios/Oficio_fumigador.jpg"
     },
     {
       "id": 5,
       "nombre": "Jardineria",
-      "archivo": "../../assets/images/Oficio_jardinero.jpg"
+      "archivo": "/assets/imagesOficios/Oficio_jardinero.jpg"
     },
     {
       "id": 6,
       "nombre": "Limpieza",
-      "archivo": "../../assets/images/Oficio_carpintero.jpg"
+      "archivo": "/assets/imagesOficios/Oficio_carpintero.jpg"
     },
     {
       "id": 7,
       "nombre": "Sanitaria",
-      "archivo": "../../assets/images/Oficio_carpintero.jpg"
+      "archivo": "/assets/imagesOficios/Oficio_carpintero.jpg"
     }
   ]
 }
