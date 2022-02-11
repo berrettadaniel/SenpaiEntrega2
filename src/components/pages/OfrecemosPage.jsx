@@ -1,4 +1,5 @@
-import '../../styles/styleOffer.css';
+import '../../assets/styles/styleOffer.css';
+import { Header } from '../../Header';
 
 export function Ofrecemos(props) {
     return (
