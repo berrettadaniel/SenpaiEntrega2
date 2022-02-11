@@ -1,16 +1,16 @@
 import { BannerSitio } from "../common/BannerSitio.jsx";
 import { Footer } from "../common/Footer.jsx";
-import axios from "axios";
 import { useEffect, useState } from "react";
+import { API_URL } from "../../api/api.js";
 
 export function IndexGridContainer() {
     //Para el manejo de estados
     const [servicios, setServicios] = useState([]);
 
-    //Efecto secundario
+    //Efecto secundario - fetch con AXIOS
     useEffect(() =>{
-        axios.get('http://localhost:4000/servicios').then((response) => {
-            setServicios(response.data);
+        API_URL.get("/servicios").then((response) => {
+            setServicios(response.data);  //se cambia el estado para re-dibujar la pagina
         });
     }, []);
 
