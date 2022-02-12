@@ -28,12 +28,12 @@
     {
       "id": 6,
       "nombre": "Limpieza",
-      "archivo": "/assets/imagesOficios/Oficio_carpintero.jpg"
+      "archivo": "/assets/imagesOficios/Oficio_limpieza.jpg"
     },
     {
       "id": 7,
       "nombre": "Sanitaria",
-      "archivo": "/assets/imagesOficios/Oficio_carpintero.jpg"
+      "archivo": "/assets/imagesOficios/Oficio_sanitario.jpg"
     }
   ]
 }
