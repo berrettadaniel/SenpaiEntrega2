@@ -1,3 +1,4 @@
+import "../../assets/styles/style.css";
 import { BannerSitio } from "../common/BannerSitio.jsx";
 import { Footer } from "../common/Footer.jsx";
 import { useEffect, useState } from "react";
