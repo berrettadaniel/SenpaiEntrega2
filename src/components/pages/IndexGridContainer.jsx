@@ -16,21 +16,21 @@ export function IndexGridContainer() {
     }, []);
 
     return (
-        <div class="gridContainer">
+        <div className="gridContainer">
         
             {/* PRIMERA FILA DE GRILLA
                 Sponsors y slogan del sitio */}
-            <div class="advertisement1"></div>
+            <div className="advertisement1"></div>
             <BannerSitio />
-            <div class="advertisement2"></div>
+            <div className="advertisement2"></div>
 
             {/* SEGUNDA FILA DE GRILLA
                 Lista de servicios que se ofrecen */}
-            <div class="servicesFlex">
+            <div className="servicesFlex">
 
                 {servicios.map(function(servicio) {
                     return (
-                        <div class="service">
+                        <div className="service" key={servicio.id}>
                             <a href="#" target="_blank">
                                 <img
                                     src={servicio.archivo}
@@ -39,7 +39,6 @@ export function IndexGridContainer() {
                             </a>
                         </div>
                     )})}
-
 
             </div>
 
