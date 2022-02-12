@@ -32,6 +32,11 @@
     color: rgb(131, 51, 5);
 }
 
+/* Corregir el uso de los h1 de acuerdo a las sugerencias del docente en la 1er entrega */
+.header h2 {
+    color: rgb(131, 51, 5);
+}
+
 .header nav {
     display: flex;
     padding: 10px;
