@@ -11,7 +11,7 @@ return (
             opcion3 = "" />
     
     {/* Textos de presentacion */}
-    <div class="gridContainer">
+    <div class="gridContainerOffer">
 
         {/* Parte superior del body */}
         <main class="presentation">

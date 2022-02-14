@@ -1,4 +1,4 @@
-import "../../assets/styles/style.css";
+//import "../../assets/styles/style.css";
 import { Header } from '../common/Header';
 import { IndexGridContainer } from "./IndexGridContainer";
 
