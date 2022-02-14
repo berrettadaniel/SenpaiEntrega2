@@ -3,7 +3,7 @@ import { IndexPage } from './components/pages/IndexPage';
 import { OfrecemosPage } from './components/pages/OfrecemosPage';
 import { LoginPage } from './components/pages/LoginPage';
 import { ContactoPage } from './components/pages/ContactoPage';
-//import { ServicioPage } from './components/pages/ServicioPage';
+import { ServicioPage } from './components/pages/ServicioPage';
 
 export function App() {
     return (
@@ -18,7 +18,7 @@ export function App() {
             <Route path="ofrecemos" element={<OfrecemosPage />} />
             <Route path="login" element={<LoginPage />} />
             <Route path="contacto" element={<ContactoPage />} /> 
-{/*            <Route path="servicio" element={<ServicioPage />} /> */}
+            <Route path="servicio" element={<ServicioPage />} />
         </Routes>
     );
 }

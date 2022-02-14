@@ -12,7 +12,7 @@
 
 
 /* HEADER */
-.header {
+.headerService {
     width: 100%;
     height: 80px;
     padding: 10px;
@@ -24,19 +24,19 @@
     background-size: 8%;
 }
 
-.header h1 {
+.headerService h1 {
     font-size: 24px;
     font-weight: bolder ;
     text-align: center;
     color: rgb(131, 51, 5);
 }
 
-.header strong {
+.headerService strong {
     font-weight: bolder ;
     color: rgb(131, 51, 5);
 }
 
-.header nav {
+.headerService nav {
     display: flex;
     padding: 10px;
     flex-direction: row;
@@ -50,7 +50,7 @@
 
 
 /* GRID DEL LAYOUT */
-.gridContainer {
+.gridContainerService {
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 80px 1fr;
@@ -63,17 +63,17 @@
 }
 
 /* FORMATOS DE TEXTO DEL GRID */
-.gridContainer h1 {
+.gridContainerService h1 {
     font-size: 40px;
     color: white;
 }
 
-.gridContainer h2 {
+.gridContainerService h2 {
     font-size: 30px;
     color: white;
 }
 
-.gridContainer p {
+.gridContainerService p {
     font-size: 20px;
     font-style: italic;
     color: white;
@@ -82,7 +82,7 @@
 
 /* PARTE SUPERIOR DEL GRID: Menu para Servicios (nuevo, en curso, finalizados) */
 /* .gridContainer .menuServicios */
-.gridContainer .menuServicios {
+.gridContainerService .menuServicios {
     display: flex;
     grid-area: menu;
     min-height: 100px;
@@ -113,7 +113,7 @@
 /* PARTE SUPERIOR DEL GRID */
 /* .gridContainer .presentation */
 /* Es la presentacion del objetivo general del sitio  */
-.gridContainer .presentation {
+.gridContainerService .presentation {
     display: flex;
     grid-area: mainRow;
     min-height: 100px;
@@ -127,7 +127,7 @@
 /* PARTE INFERIOR IZQUIERDA DEL GRID */
 /* .gridContainer .SearchService */
 /* Se explica el objetivo de poder encontrar diferentes servicios */
-.gridContainer .SearchService {
+.gridContainerService .SearchService {
     display: flex;
     grid-area: buscaServicio;
     flex-direction: column;
@@ -140,7 +140,7 @@
 /* PARTE INFERIOR DERECHA DEL GRID */
 /* .gridContainer .OfferJob */
 /* Se explica el objetivo de poder ofrecer servicios */
-.gridContainer .OfferJob {
+.gridContainerService .OfferJob {
     display: flex;
     grid-area: ofreceTrabajo;
     flex-direction: column;
@@ -152,7 +152,7 @@
 
 
 /* FOOTER */
-.footer {
+.footerService {
     display: flex;
     grid-area: footer;
     flex-wrap: wrap;
@@ -173,47 +173,47 @@
 @media (max-width: 768px) {
 
     /* HEADER PARA MOBILE */    /* esta seccion de mobile para el "header" esta pronta para este CSS */
-    .header {
+    .headerService {
         width: 100%;
         height: 70px;
         padding: 5px;
     }
 
-    .header h1 {
+    .headerService h1 {
         font-size: 14px;
         font-weight: bold;
     }
 
-    .header strong {
+    .headerService strong {
         font-weight: bold;
         font-size: 80%;
     }
 
 
     /* GRID DEL LAYOUT PARA MOBILE */
-    .gridContainer {
+    .gridContainerService {
         grid-template-rows: 0.5fr 1fr;
     }
 
     /* FORMATOS DE TEXTO DEL GRID PARA MOBILE */
-    .gridContainer h1 {
+    .gridContainerService h1 {
         font-size: 25px;
         color: white;
     }
 
-    .gridContainer h2 {
+    .gridContainerService h2 {
         font-size: 18px;
         color: white;
     }
 
-    .gridContainer p {
+    .gridContainerService p {
         font-size: 14px;
         font-style: italic;
         color: white;
     }
 
     /* FOOTER PARA MOBILE */
-    .footerOffer {
+    .footerService {
         flex-direction: column;
         justify-content: left;
         align-items: left;
