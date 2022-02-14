@@ -11,7 +11,7 @@ export function LoginPage() {
                 opcion2 = ""
                 opcion3 = "" />
             
-            <div className="gridContainer">
+            <div className="gridContainerLogin">
 
                 {/* Parte izquierda del grid */}
                 <BannerSitio />
