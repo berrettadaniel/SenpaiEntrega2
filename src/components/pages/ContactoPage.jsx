@@ -10,15 +10,15 @@ export function ContactoPage() {
                     opcion2 = ""
                     opcion3 = "" />
 
-            <div class="gridContainer">
+            <div class="gridContainerContact">
 
             {/* Parte izquierda supeior del grid container */}
-            <div class="ImagenRelleno">
+            <div class="ImagenRellenoContact">
             </div>
 
             {/* Parte izquierda inferior del grid container */}
             {/* (explicar breve que puede solicitar o pedir en el formulario) */}
-            <div class="GuiaBreve">
+            <div class="GuiaBreveContact">
                 <h3>Si se quiere registrar con un servicio que no encuentra,</h3>
                 <h3>solicítelo por medio del formulario.</h3>
                 <br/>
