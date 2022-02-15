@@ -4,10 +4,15 @@ import { Header } from '../common/Header';
 import { Footer } from '../common/Footer';
 import { useEffect, useState } from "react";
 import { API_URL } from "../../api/api.js";
+import { useParams } from 'react-router-dom';
 
-// "serviceName" sera un parametro para los distintos servicios - opcion2
-// "UserName" sera un parametro para opcion3
-export function ServicioPage () {
+export function ServicioPage() {
+    //Para obtener el id del servicio que viene por la url (ver en App.jsx servicio/:id)
+    //El id del servicio me permite obtener el nombre desde el DB.JSON y ese valor es
+    //el que se pasa al parametro "opcion2" en el Header.
+
+    const params = useParams();
+
     //Para el manejo de estados
     const [servicios, setServicios] = useState([]);
 
@@ -21,10 +26,10 @@ export function ServicioPage () {
     return (
         <>
             <Header titulo = "SEGUIMIENTO DE SERVICIOS"
-                    opcion1 = "Volver"
-                    opcion2 = "Albañilería"
-                    opcion3 = "Hola Daniel" />
-             
+                    opcion1 = "Volver" opcion1link="/"
+                    opcion2 = {params.id} opcion2link=""
+                    opcion3 = "Hola Daniel" opcion3link="" />
+
             <div className="gridContainerService">
 
                 <div className="menuServicios">
