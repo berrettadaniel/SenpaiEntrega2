@@ -1,12 +1,16 @@
 import '../../assets/styles/styleService.css';
 import { Header } from '../common/Header';
 import { Footer } from '../common/Footer';
+//prueba ---------------------------------------------------------------
 import { useEffect, useState } from "react";
 import { API_URL } from "../../api/api.js";
 
 // "serviceName" sera un parametro para los distintos servicios - opcion2
 // "UserName" sera un parametro para opcion3
-export function ServicioPage () {
+export function ServicioPage (props) {
+    //prueba ---------------------------------------------------------------
+    const idServicio=props.numServicio;
+
     //Para el manejo de estados
     const [servicios, setServicios] = useState([]);
 
@@ -14,8 +18,22 @@ export function ServicioPage () {
     useEffect(() =>{
         API_URL.get("/servicios").then((response) => {
             setServicios(response.data);  //se cambia el estado para re-dibujar la pagina
+
+            if idServicio !== 0 {
+                if servicios.length > 0 {
+                    const opcion2Valor = servicios[idServicio].nombre;
+                } else {
+                    const opcion2Valor = "Servicio inexistente";
+                }
+            } else {
+                const opcion2Valor = "Servicio inexistente";
+            }
         });
     }, []);
+
+
+
+//prueba ---------------------------------------------------------------
 
     return (
         <>
