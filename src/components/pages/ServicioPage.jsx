@@ -11,7 +11,7 @@ export function ServicioPage () {
                     opcion1 = "Volver"
                     opcion2 = "Albañilería"
                     opcion3 = "Hola Daniel" />
-            
+             
             <div className="gridContainerService">
 
                 <div className="menuServicios">
@@ -44,10 +44,10 @@ export function ServicioPage () {
                         <p>Finalizadas</p>
                     </div>
                 </div>
-
-                {/* Footer */}
-                <Footer />
             </div>
+
+            {/* Footer */}
+            <Footer />
         </>
     );
 }

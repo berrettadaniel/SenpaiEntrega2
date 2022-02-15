@@ -20,7 +20,7 @@
     background-color: rgb(241, 207, 166);
     background-position: center;
     /* "background-image" debe variar segun el servicio elegido */
-    background-image: url("../images/ServiceAlbanileria_transp.png");
+    /*background-image: url("../images/ServiceAlbanileria_transp.png");*/
     background-size: 8%;
 }
 
