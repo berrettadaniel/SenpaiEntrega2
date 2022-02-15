@@ -4,6 +4,13 @@ import { BrowserRouter } from "react-router-dom";
 import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+//Importacion de estilos (css)
+import './assets/styles/style.css';
+import './assets/styles/styleContact.css';
+import './assets/styles/styleLogin.css';
+import './assets/styles/styleOffer.css';
+import './assets/styles/styleService.css';
+
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>

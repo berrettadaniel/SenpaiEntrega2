@@ -1,4 +1,5 @@
-//import "../../assets/styles/style.css";
+//index.html
+
 import { Header } from '../common/Header';
 import { IndexGridContainer } from "./IndexGridContainer";
 

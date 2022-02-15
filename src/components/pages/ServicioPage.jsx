@@ -1,4 +1,5 @@
-import '../../assets/styles/styleService.css';
+//servicios.html
+
 import { Header } from '../common/Header';
 import { Footer } from '../common/Footer';
 import { useEffect, useState } from "react";

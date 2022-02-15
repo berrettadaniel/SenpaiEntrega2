@@ -1,4 +1,4 @@
-import '../../assets/styles/style.css';
+//Banner del sitio
 
 export function BannerSitio() {
     return (

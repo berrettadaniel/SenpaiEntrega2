@@ -1,4 +1,5 @@
-import '../../assets/styles/styleOffer.css';
+//ofrecemos.html
+
 import { Header } from '../common/Header';
 import { Footer } from '../common/Footer';
 

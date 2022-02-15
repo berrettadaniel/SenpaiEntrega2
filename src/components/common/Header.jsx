@@ -1,4 +1,4 @@
-import '../../assets/styles/style.css';
+//Hedar del sitio
 
 // Las props esperadas son:
 // titulo, es el titulo que aparece arriba
