@@ -29,9 +29,11 @@ export function IndexGridContainer() {
             <div className="servicesFlex">
 
                 {servicios.map(function(servicio) {
+                    const num=servicio.id;
+
                     return (
                         <div className="service" key={servicio.id}>
-                            <a href="#" target="_blank">
+                            <a href="http://localhost:3000/servicio/{num}" target="_blank">
                                 <img
                                     src={servicio.archivo}
                                     alt={servicio.nombre} />
