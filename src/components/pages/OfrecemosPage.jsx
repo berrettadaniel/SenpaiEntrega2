@@ -3,13 +3,13 @@
 import { Header } from '../common/Header';
 import { Footer } from '../common/Footer';
 
-export function OfrecemosPage(props) {
+export function OfrecemosPage() {
 return (
     <>
     <Header titulo = "QUE OFRECEMOS?"
-            opcion1 = "Volver"
-            opcion2 = ""
-            opcion3 = "" />
+            opcion1 = "Volver" opcion1link="/"
+            opcion2 = "" opcion2link=""
+            opcion3 = "" opcion3link="" />
     
     {/* Textos de presentacion */}
     <div class="gridContainerOffer">

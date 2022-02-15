@@ -7,9 +7,9 @@ export function ContactoPage() {
     return (
         <>
             <Header titulo = "REFORMAS Y REPARACIONES"
-                    opcion1 = "Volver"
-                    opcion2 = ""
-                    opcion3 = "" />
+                    opcion1="Volver" opcion1link="/"
+                    opcion2="" opcion2link=""
+                    opcion3="" opcion3link="" />
 
             <div class="gridContainerContact">
 

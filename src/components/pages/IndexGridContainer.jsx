@@ -1,5 +1,6 @@
 //Contenido del index.html
 
+import { Link } from 'react-router-dom';
 import { BannerSitio } from "../common/BannerSitio.jsx";
 import { Footer } from "../common/Footer.jsx";
 import { useEffect, useState } from "react";
@@ -32,17 +33,16 @@ export function IndexGridContainer() {
                 {servicios.map(function(servicio) {
                     const num=servicio.id;
 
-                    return (
+                    return(
                         <div className="service" key={servicio.id}>
-                            <a href="http://localhost:3000/servicio/{num}" target="_blank">
+                            <Link to={`/servicio/${num}`}>
                                 <img
                                     src={servicio.archivo}
                                     alt={servicio.nombre} />
                                 <h2>{servicio.nombre}</h2>
-                            </a>
+                            </Link>
                         </div>
                     )})}
-
             </div>
 
             {/* TERCERA FILA DE GRILLA
